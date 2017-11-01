@@ -13,8 +13,8 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(array)
-  array.each_with_index.collect do |name, index| #chaining allows us to envoke methods one after the other
-    "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+  array.each_with_index.collect do |attendee, index| #chaining allows us to envoke methods one after the other
+    "Hello, #{attendee}! You'll be assigned to room #{index + 1}!"
   end
 end
 
