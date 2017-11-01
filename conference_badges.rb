@@ -6,9 +6,9 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
-  array.collect do |badge| #collect Returns a new array with the results of running block once for every element in enum. #If no block is given, an enumerator is returned instead.
-    "Hello, my name is #{badge}."
+def batch_badge_creator(attendees)
+  array.collect do |attendee| #collect Returns a new array with the results of running block once for every element in enum. #If no block is given, an enumerator is returned instead.
+    "Hello, my name is #{attendee}."
   end
 end
 
